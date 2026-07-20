@@ -1,39 +1,75 @@
-# CaseGuard AI
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CaseGuard AI</title>
 
-## Trace every claim. Test every conclusion. Reveal how errors become facts.
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#0f172a;
+color:white;
+text-align:center;
+}
 
-CaseGuard AI is an AI-powered legal case intelligence platform that helps lawyers, researchers, journalists, and litigants analyze complex legal proceedings.
+.hero{
+padding:80px 20px;
+}
 
-Instead of simply summarizing documents, CaseGuard AI reconstructs how factual claims evolve across an entire case.
+h1{
+font-size:56px;
+margin-bottom:20px;
+}
 
-The platform traces every important statement back to its original source, identifies unsupported conclusions, detects contradictions between documents, highlights unequal treatment of evidence, and visualizes how assumptions can propagate through multiple judicial decisions.
+h2{
+font-size:28px;
+color:#60a5fa;
+}
 
-### Core capabilities
+p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+line-height:1.7;
+color:#d1d5db;
+}
 
-- Evidence-grounded document analysis
-- Automatic chronology reconstruction
-- Claim-to-evidence traceability
-- Contradiction detection
-- Narrative evolution mapping
-- Evidence balance analysis
-- Citation-backed AI reports
-- Interactive legal timelines
+button{
+margin-top:40px;
+padding:18px 40px;
+font-size:20px;
+border:none;
+border-radius:10px;
+background:#2563eb;
+color:white;
+}
+</style>
+</head>
 
-### Why it matters
+<body>
 
-Legal cases often contain thousands of pages spread across police reports, witness statements, expert opinions, court decisions, appeals, and correspondence.
+<div class="hero">
 
-An unsupported assumption introduced early in a case can later be repeated by multiple institutions until it appears to be an established fact.
+<h1>CaseGuard AI</h1>
 
-CaseGuard AI helps users return to the original evidence and understand exactly how conclusions were reached.
+<h2>
+Trace every claim.<br>
+Test every conclusion.<br>
+Reveal how errors become facts.
+</h2>
 
-### Built with
+<p>
+AI-powered legal intelligence platform that reconstructs case chronology,
+connects every claim to supporting evidence,
+detects contradictions,
+and generates transparent legal analysis.
+</p>
 
-- OpenAI GPT-5.6
-- OpenAI Codex
-- GitHub
-- Devpost Build Week
+<button>Upload Case Files</button>
 
-### Status
+</div>
 
-Prototype under active development for OpenAI Build Week 2026.
+</body>
+</html>
